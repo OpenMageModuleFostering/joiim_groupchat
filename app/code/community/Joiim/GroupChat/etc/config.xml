@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Joiim_GroupChat>
+            <version>1.0.0</version>
+        </Joiim_GroupChat>
+    </modules>
+    <global>
+        <blocks>
+            <joiim_groupchat>
+                <class>Joiim_GroupChat_Block</class>
+            </joiim_groupchat>
+            <page>
+                <rewrite>
+                    <html_head>Joiim_GroupChat_Block_Html_Head</html_head>
+                </rewrite>
+            </page>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <joiim_groupchat>
+                    <file>joiim.xml</file>
+                </joiim_groupchat>
+            </updates>
+        </layout>
+    </frontend>
+</config>

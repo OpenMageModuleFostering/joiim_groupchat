@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package>
+    <name>Joiim_GroupChat</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://aws.amazon.com/apache2.0">Apache Software License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Group Chat Referral System</summary>
+    <description>Joi.IM is a beautiful real-time group chat embedded directly on your Shopify stores for your users to invite their friends to come to the site and chat privately right where they are.</description>
+    <notes># version 1.0.0 (include plugin 1.0.0-1.0.4)&#xD;
+&#xD;
+plugin # version 1.0.4&#xD;
+    * replace actb with jquery auto suggest&#xD;
+    * scripts modulize refactor&#xD;
+    * replace fixed button with sidebar&#xD;
+    * click contact on sidebar to start conversation&#xD;
+plugin # version 1.0.3&#xD;
+    * skip background image for image picker&#xD;
+plugin # version 1.0.2&#xD;
+    * background image picker for selection&#xD;
+plugin # version 1.0.1&#xD;
+    * mobile optimization for chat window&#xD;
+    * rename getExistingChat to getPrevDiscussions&#xD;
+    * fix first message not sent out&#xD;
+plugin # version 1.0.0&#xD;
+    * release plugin v1.0.0&#xD;
+</notes>
+    <authors><author><name>Joi.IM</name><user>joiim</user><email>angelo@joi.im</email></author></authors>
+    <date>2012-11-25</date>
+    <time>11:15:29</time>
+    <contents><target name="magecommunity"><dir name="Joiim"><dir name="GroupChat"><dir name="Block"><dir name="Html"><file name="Head.php" hash="1d6a3312d09538aac798bcd69f88f9dd"/></dir></dir><dir name="etc"><file name="config.xml" hash="57f8da40972a8ea2822db638cf65659e"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="joiim.xml" hash="2feb79955bf13d8d6697465ca2af0a4a"/></dir></dir></dir><dir name="default"><dir name="default"><dir name="layout"><file name="joiim.xml" hash="2feb79955bf13d8d6697465ca2af0a4a"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Joiim_GroupChat.xml" hash="7929825f015c67fc7d583f52b12b41e0"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
