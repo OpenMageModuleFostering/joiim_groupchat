@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<config>
+	<tabs>
+        <joiimconfig translate="label" module="groupchat">
+            <label>Joi.IM Setup</label>
+            <sort_order>99999</sort_order>
+        </joiimconfig>
+    </tabs> 
+    <sections>
+		<joiimsettings translate="label" module="groupchat">
+			<label>Joi.IM Settings</label>
+			<tab>joiimconfig</tab>
+			<frontend_type>text</frontend_type>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store> 
+			<groups>
+				<joiimstorevalues translate="label">
+					<label>Joi.IM Integration</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>1</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<enabled translate="label">
+							<label>Enabled</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>1</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</enabled>
+						<debug translate="label">
+							<label>Debug Mode</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>2</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</debug>
+						<site_id translate="label">
+							<label>Joi.IM API Key</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>5</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</site_id>
+					</fields>
+				</joiimstorevalues>
+			</groups>
+        </joiimsettings>
+    </sections>
+</config>

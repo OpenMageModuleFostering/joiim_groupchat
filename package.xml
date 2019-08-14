@@ -1,14 +1,17 @@
 <?xml version="1.0"?>
 <package>
     <name>Joiim_GroupChat</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license uri="http://aws.amazon.com/apache2.0">Apache Software License</license>
     <channel>community</channel>
     <extends/>
     <summary>Group Chat Referral System</summary>
     <description>Joi.IM is a beautiful real-time group chat embedded directly on your Shopify stores for your users to invite their friends to come to the site and chat privately right where they are.</description>
-    <notes># version 1.0.0 (include plugin 1.0.0-1.0.4)&#xD;
+    <notes># version 1.0.1&#xD;
+    * replace app icon&#xD;
+&#xD;
+# version 1.0.0 (include plugin 1.0.0-1.0.4)&#xD;
 &#xD;
 plugin # version 1.0.4&#xD;
     * replace actb with jquery auto suggest&#xD;
@@ -27,9 +30,9 @@ plugin # version 1.0.0&#xD;
     * release plugin v1.0.0&#xD;
 </notes>
     <authors><author><name>Joi.IM</name><user>joiim</user><email>angelo@joi.im</email></author></authors>
-    <date>2012-11-25</date>
-    <time>11:15:29</time>
-    <contents><target name="magecommunity"><dir name="Joiim"><dir name="GroupChat"><dir name="Block"><dir name="Html"><file name="Head.php" hash="1d6a3312d09538aac798bcd69f88f9dd"/></dir></dir><dir name="etc"><file name="config.xml" hash="57f8da40972a8ea2822db638cf65659e"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="joiim.xml" hash="2feb79955bf13d8d6697465ca2af0a4a"/></dir></dir></dir><dir name="default"><dir name="default"><dir name="layout"><file name="joiim.xml" hash="2feb79955bf13d8d6697465ca2af0a4a"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Joiim_GroupChat.xml" hash="7929825f015c67fc7d583f52b12b41e0"/></dir></target></contents>
+    <date>2012-11-30</date>
+    <time>21:26:09</time>
+    <contents><target name="magecommunity"><dir name="Joiim"><dir name="GroupChat"><dir name="Block"><dir name="Html"><file name="Head.php" hash="1618b22756734d56fa61b10d5e62be93"/></dir></dir><dir name="Helper"><file name="Data.php" hash="c29de751b162395ff94ef469007901d9"/></dir><dir name="etc"><file name="config.xml" hash="891584624de61fb85ce5c8a533cbff85"/><file name="system.xml" hash="f868b2e35d6ad8ed8d93b4ee25f32243"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="joiim.xml" hash="960bf667a7779998ef93476783c77286"/></dir></dir></dir><dir name="default"><dir name="default"><dir name="layout"><file name="joiim.xml" hash="960bf667a7779998ef93476783c77286"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Joiim_GroupChat.xml" hash="7929825f015c67fc7d583f52b12b41e0"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

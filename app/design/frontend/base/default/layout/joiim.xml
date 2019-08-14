@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layout version="0.1.0">
 		<catalog_product_view>
-			<reference name="head">
-                <action method="addExternalItem"><type>external_js</type><name>//cdn.joi.im/javascripts/joiimPlugin.min.js</name><params/></action>
-            </reference>	     	
+		    <reference name="head">
+		        <action method="addJoiimMetaTags"></action>			
+		        <action method="addExternalItem"><type>external_js</type><name>//cdn.joi.im/javascripts/joiimPlugin.min.js</name><params/></action>
+		    </reference>	     	
 		</catalog_product_view>
 		<catalog_category_view>
 			<reference name="head">
-                <action method="addExternalItem"><type>external_js</type><name>//cdn.joi.im/javascripts/joiimPlugin.min.js</name><params/></action>
-            </reference>	     	
+		        <action method="addJoiimMetaTags"></action>			
+		        <action method="addExternalItem"><type>external_js</type><name>//cdn.joi.im/javascripts/joiimPlugin.min.js</name><params/></action>
+		    </reference>	     	
 		</catalog_category_view>
 </layout>

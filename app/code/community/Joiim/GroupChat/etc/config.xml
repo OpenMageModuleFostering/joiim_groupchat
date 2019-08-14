@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Joiim_GroupChat>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </Joiim_GroupChat>
     </modules>
     <global>
@@ -16,6 +16,11 @@
                 </rewrite>
             </page>
         </blocks>
+        <helpers>
+			<groupchat>
+				<class>Joiim_GroupChat_Helper</class>
+			</groupchat>
+		</helpers>  
     </global>
     <frontend>
         <layout>
@@ -26,4 +31,34 @@
             </updates>
         </layout>
     </frontend>
+    <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <joiimsettings>
+                                            <title>Joi.IM Settings</title>
+                                        </joiimsettings>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+    <default>
+		<joiimsettings>
+			<joiimstorevalues>                
+				<enabled>0</enabled>
+				<debug>0</debug>         
+				<site_id>0</site_id>
+			</joiimstorevalues>      
+		</joiimsettings>
+	</default>
 </config>
