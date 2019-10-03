@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Joiim_GroupChat",
+    "name": "OpenMageModuleFostering\/Joiim_GroupChat",
     "type": "magento-module",
     "license": "Apache-Software-License",
     "homepage": "",
     "description": "Group Chat Referral System",
     "authors": [
-    {
-        "name": "Joi.IM",
-        "email": "angelo@joi.im"
-    }
-],
+        {
+            "name": "Joi.IM",
+            "email": "angelo@joi.im"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
